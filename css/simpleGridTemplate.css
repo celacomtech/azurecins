@@ -16,7 +16,7 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #5D5E5D;
+	background-color: #c98e32;
 	border-bottom: 1px solid #353635;
 }
 .logo {
@@ -159,7 +159,7 @@ header {
 	border-top-width: 2px;
 }
 footer {
-	background-color: #B3B3B3;
+	background-color: #c98e32;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 }
