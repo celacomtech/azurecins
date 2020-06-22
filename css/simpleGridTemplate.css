@@ -16,21 +16,24 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #c98e32;
+	background-color: #FFFFFF;
 	border-bottom: 1px solid #353635;
 }
-.logo {
-	color: #fff;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #1C75BC;
+}
+/*.logo {
+	color: #ffffff;
 	font-weight: bold;
 	margin-left: auto;
 	letter-spacing: 4px;
 	margin-right: auto;
-	text-align: center;
+	text-align: left;
 	padding-top: 15px;
 	line-height: 2em;
 	font-size: 22px;
 }
-.hero_header {
+*/.hero_header {
 	color: #FFFFFF;
 	text-align: center;
 	margin: 0;
@@ -70,7 +73,7 @@ header {
 	margin-right: 1%;
 	border-radius: 3px;
 	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+	border-bottom: 4px solid #A7A9AC;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
@@ -143,7 +146,7 @@ header {
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #6DC7D0;
+	background-color: #A7A9AC;
 	color: #FFFFFF;
 	cursor: pointer;
 }
@@ -151,7 +154,7 @@ header {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
+	background-color: #1C75BC;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -159,13 +162,13 @@ header {
 	border-top-width: 2px;
 }
 footer {
-	background-color: #c98e32;
+	background-color: #A7A9AC;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 }
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: #A7A9AC;
 }
 .profile {
 	width: 50%;
