@@ -5,47 +5,103 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Azure C. Insurance </title>
+	<link rel="shortcut icon" href="images/dove_favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/dove_favicon.ico" type="image/x-icon">
 	<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha3849aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"  crossorigin="anonymous">\<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 	<body>
 <!-- Main Container -->
 <div class="container"> 
   <!-- Header -->
   <header class="header">
-	  <nav class="navbar navbar-collapse">
+<!--	  <nav class="navbar navbar-collapse">
 
     <div class="navbar-header">
-      <a class="navbar-brand"><img src="images/azureC_Logo.png" class="img-responsive" width=200></a>
+      <a class="navbar-brand"href=""></a>
     </div>
-<ul class="nav nav-pills justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
+<ul class="nav nav-pills bg-grey justify-content-end  text-uppercase">
+  <li class="nav-item bg-grey">
+    <a class="nav-link active" href="#"><i class="fas fa-user"></i> About</a>
   </li>
-<!--  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+	<li class="dropdown nav-item">
+        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Services
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+	<li class="nav-item">
+    <a class="nav-link" href="#"> Contact</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>-->
+
 </ul>
-	  </nav>
+	  </nav>-->
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/azureC_Logo.png" class="img-responsive" style="width:200px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><!--<i class="fas fa-inbox"></i>--> Contact</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#modalLoginForm">Get a Quote</a>
+      </li>
+<!--      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-list"></i> Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+--><!--      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
   </header>
   <!-- Hero Section -->
   <section class="intro">
     <div class="column">
       <h3>Azure Celestine</h3>
-      <img src="images/profile.png" alt="" class="profile rounded-circle"> </div>
+      <img src="images/profile.png" alt="" class="profile rounded-circle border-blue"> </div>
     <div class="column">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
     </div>
   </section>
   <!-- Stats Gallery Section -->
+	
+<!--	We offer a variety of products to take care of your insurance and investment needs. We carry a variety of industry leaders in the following areas:
+
+home- rental, mobile/modular, primary residence, and seasonal dwellings. We also offer landlord packages.
+
+auto- standard, SR-22, and classic autos. We also cover commercial vehicles, motorcycles, atvs, and watercraft. 
+
+life insurance-  a variety of term, permanent, final expense, and guaranteed issue.
+
+annuities and retirement- fixed, indexed, mutual funds, ETFs,  and stocks.
+-->	
   <div class="gallery">
     <div class="thumbnail"> <a href="#"><img src="images/home_rental.jpeg" alt="" width="2000" class="cards"/></a>
       <h4>home- rental</h4>
@@ -63,29 +119,29 @@
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>TITLE</h4>
+      <h4>seasonal dwellings</h4>
       <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
   <div class="gallery">
     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>TITLE</h4>
+      <h4>landlord packages</h4>
       <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>TITLE</h4>
+      <h4>auto- standard</h4>
       <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>TITLE</h4>
+      <h4>SR-22</h4>
       <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
-      <h4>TITLE</h4>
+      <h4>classic autos</h4>
       <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
@@ -121,7 +177,7 @@
   </div>
 </div>
   <!-- Footer Section -->
-  <footer id="contact">
+  <footer id="contact"name="contact">
     <p class="hero_header">GET IN TOUCH WITH ME</p>
     <div class="button"data-toggle="modal" data-target="#modalLoginForm">EMAIL ME </div>
   </footer>
