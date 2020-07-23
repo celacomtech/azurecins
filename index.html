@@ -256,7 +256,7 @@
   <!-- Footer Section -->
 		      <section class="">
         <div class="text-center">
-          <h2 style="color: gray"><b>Azure C  Insurance</b></h2>
+          <h2 style="color: gray"><b>Aure C  Insurance</b></h2>
 			 <p>This agency was opened in 2016 to provide insurance to people residing in Orangeburg, Bamberg, Allendale, and Calhoun counties. Since then, it has expanded to  all counties in SC,GA and NC. My agency offers personal and commercial insurance policies as well as final expense,health, life, property, auto, flood, investments and retirement. We are full-service agency that strives to meet all of the needs of our clients within one shop. We offer a variety of top tier vendors such as Progressive, Liberty Mutual, Travelers, and Foremost to name a few. Give us a call or stop by to discuss your needs.</p>
         </div>
 
@@ -299,7 +299,7 @@
 <p class="col-md-12">      Copyright &copy; 2020 All Rights Reserved <!--<br>Sitemap. Privacy Policy--></p>
 	  <div class="container text-center bg-blue">
                
-<!--                    <a href="">
+                    <a href="">
                       <img src="images/fb.png" alt="">
                     </a>
       
@@ -311,7 +311,7 @@
                     </a>
                     <a href="">
                       <img src="images/instagram.png" alt="">
-                    </a>-->
+                    </a>
           </div>
       <a href="http://www.celacomtechnologies.com"style="text-decoration: none;color: orange"target="new"title="Celacom Technologies"><img src="images/celacom.png" width="35px"></a>
 
@@ -344,7 +344,7 @@
 		var phone = $("#phone").val();
 		var email = $("#email").val();
 		var service = $("#service").val();
-		var usermessage = $("#service").val();
+		var usermessage = $("#message").val();
 		
 Email.send({
     Host : "smtp.azurecins.com",
@@ -353,8 +353,8 @@ Email.send({
 /*    To : 'info@azurecins.com',
 */    To : 'celacomtech@gamil.com',
     From : email,
-    Subject : "Get A Quote:"+ service +",
-    Body : "<html>"+ usermessage +"<br></br><em>Sincerely</em><br></br>"+ nam e+"<br></br>"+ phone +"</html>"
+    Subject : "Get A Quote:"+ service +"",
+    Body : "<html>"+ usermessage +"<br></br><em>Sincerely</em><br></br>"+ name +"<br></br>"+ phone +"</html>"
 }).then(
   message => alert(message)
 );
