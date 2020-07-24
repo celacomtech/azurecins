@@ -41,30 +41,49 @@
       <li class="nav-item active">
         <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#serviceList"><i class="fas fa-list"></i> Services <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactUs"><i class="fas fa-envelope"></i> Contact <span class="sr-only">(current)</span></a>
+      </li>
 
     </ul>
-    <div class="">
+    <div class="d-none d-lg-block">
 <i class="fas fa-phone mt-3"style="color: gray"></i> <text type="phone"style="color: gray">803-662-9642</text>  
     </form><i class="fas fa-map mt-4"style="color: gray"></i>  P.O. Box 291345 Columbia SC 29229
   </div>
 </nav>
   </header>
   <!-- Hero Section -->
-  <section class="intro text-center bg-white"id="home"name="home"style="padding-top:5px;background-image:url('images/AdobeStock_282973093.jpg');background-size:125%;background-repeat: repeat-y;opacity:.8;">
+  <section class="intro text-center bg-white d-none d-lg-block"id="home"name="home"style="padding-top:5px;background-image:url('images/AdobeStock_282973093.jpg');background-size:125% auto;background-repeat: no-repeat;opacity:.8;">
 	  
 	
     <div class="column"style="padding: ">
       <h3>Azure Celestine</h3>
-      <img src="images/profile.png" alt="" class="profile rounded-circle border-blue"> </div>
+      <img src="images/profile.png" alt="" class="profile rounded-circle border-blue">
+	  </div>
+    <div class="column">
+      <p>My name is Azure “Blu” Celestine and I started in this industry  as a financial advisor in 2003. Back then my primary market was military, over the years I have expanded to included everyone that is overworked and underpaid. Before opening up my own agency in 2016 I  worked for Ameriprise, USAA, and Scottrade. I was also the financial manager for Shaw Air Force base from 2010-2013. My goals are to provide quality service to people fulfilling the role of civil servants and essential employees in our county today. I am a US Army veteran.</p>
+    </div>
+	   <buton class="btn btn-danger text-uppercase"data-toggle="modal" data-target="#modalLoginForm"><b>Get A Quote</b></buton>
+  </section>
+	<section class="intro text-center d-xs-block d-sm-block d-md-block d-lg-none"id="home"name="home"style="padding-top:5px;">
+	  
+	
+    <div class="column"style="padding: ">
+      <h3>Azure Celestine</h3>
+      <img src="images/profile.png" alt="" class="profile rounded-circle border-blue">
+	  </div>
     <div class="column">
       <p>My name is Azure “Blu” Celestine and I started in this industry  as a financial advisor in 2003. Back then my primary market was military, over the years I have expanded to included everyone that is overworked and underpaid. Before opening up my own agency in 2016 I  worked for Ameriprise, USAA, and Scottrade. I was also the financial manager for Shaw Air Force base from 2010-2013. My goals are to provide quality service to people fulfilling the role of civil servants and essential employees in our county today. I am a US Army veteran.</p>
     </div>
 	   <buton class="btn btn-danger text-uppercase"data-toggle="modal" data-target="#modalLoginForm"><b>Get A Quote</b></buton>
   </section>
 
-  <div class="gallery">
+  <div class="gallery"id="serviceList" name="serviceList">
     <div class="thumbnail"> <a href="#"><img src="images/AdobeStock_139341287.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseProperty" role="button" aria-expanded="false" >Property</h4>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseProperty" role="button" aria-expanded="false" >Property</h4>
 <!--      <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 -->   
@@ -86,7 +105,7 @@
 </div>
 	  </div>
     <div class="thumbnail"> <a href="#"><img src="images/AdobeStock_273702590.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseAuto" role="button" aria-expanded="false">Auto</h4>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseAuto" role="button" aria-expanded="false">Auto</h4>
    <div class="row">
   <div class="col">
     <div class="collapse multi-collapse" id="multiCollapseAuto">
@@ -102,8 +121,8 @@
   </div>
 </div>
 	  </div>
-    <div class="thumbnail"> <a href="#"><img src="images/AdobeStock_215128978.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseCommercial" role="button" aria-expanded="false">Commercial</h4>
+    <div class="thumbnail "> <a href="#"><img src="images/AdobeStock_215128978.jpeg" alt="" width="2000" class="cards"/></a>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseCommercial" role="button" aria-expanded="false">Commercial</h4>
    <div class="row">
   <div class="col">
     <div class="collapse multi-collapse" id="multiCollapseCommercial">
@@ -121,7 +140,7 @@
 </div>
 	  </div>
     <div class="thumbnail"> <a href="#"><img src="images/123_1 5.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseLife" role="button" aria-expanded="false">Life</h4>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseLife" role="button" aria-expanded="false">Life</h4>
 <!--      <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 -->  <div class="row">
@@ -146,7 +165,7 @@
   </div>
   <div class="gallery">
     <div class="thumbnail"> <a href="#"><img src="images/AdobeStock_129406490.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseRetirement" role="button" aria-expanded="false">Retirement</h4>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseRetirement" role="button" aria-expanded="false">Retirement</h4>
    <div class="row">
   <div class="col">
     <div class="collapse multi-collapse" id="multiCollapseRetirement">
@@ -164,7 +183,7 @@
 </div>
 	  </div>
     <div class="thumbnail"> <a href="#"><img src="images/AdobeStock_175798294.jpeg" alt="" width="2000" class="cards"/></a>
-      <h4 data-toggle="collapse" href="#multiCollapseHealth" role="button" aria-expanded="false">Health</h4>
+      <h4 class="text-center" data-toggle="collapse" href="#multiCollapseHealth" role="button" aria-expanded="false">Health</h4>
 <!--      <p class="tag">HTML, CSS, JS, WordPress</p>
       <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 -->   <div class="row">
@@ -193,6 +212,9 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-10 img-thumbnail" src="images/libertyMutual.png"height="125px" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-10 img-thumbnail" src="images/transAmerica.png"height="125px" alt="Third slide">
     </div>
   </div>
 </div><br>
@@ -263,7 +285,7 @@
 
         </section>
 
-  <footer id="contact"name="contact"class="hero_header"style="padding: 0px">
+  <footer id="contactUs"name="contactUs"class="hero_header"style="padding: 0px">
               <div class="col-md-12 text-center">
 <form>
   <div class="form-row">
@@ -290,13 +312,20 @@
  </footer>
   <!-- Copyrights Section -->
   <div class="copyright text-center">
-	                  
-				<i class="fas fa-map"></i>1109 Doyle Street Orangeburg SC 29115
+
+	             <div class="small d-lg-none">     
+				<i class="fas fa-map "></i>1109 Doyle Street <br>Orangeburg, SC 29115<br>
 				 <i class="fas fa-phone"></i> 803-662-9642  
 					 <i class="fas fa-fax"></i> 803-750-1870  
+	  </div>	    
+	  <div class="d-none d-lg-block">     
+				<i class="fas fa-map "></i>1109 Doyle Street Orangeburg, SC 29115
+				 <i class="fas fa-phone"></i> 803-662-9642  
+					 <i class="fas fa-fax"></i> 803-750-1870  
+	  </div>
 
-
-<p class="col-md-12">      Copyright &copy; 2020 All Rights Reserved <!--<br>Sitemap. Privacy Policy--></p>
+<p class="col-md-12 small d-lg-none">      Copyright &copy; 2020 <br>All Rights Reserved <!--<br>Sitemap. Privacy Policy--></p>
+<p class="col-md-12 d-none d-lg-block">      Copyright &copy; 2020 All Rights Reserved <!--<br>Sitemap. Privacy Policy--></p>
 	  <div class="container text-center bg-blue">
                
 <!--                    <a href="">
